@@ -1,0 +1,35 @@
+button.button {
+    background-color: #313d4d;
+    border: 2px solid #1f1f1f;
+    box-shadow: -8px 6px #979999;
+    color: #eef0e8;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 1rem;
+    padding: 0.2rem 0.5rem 0.2rem 6rem;
+    transition: border-color 0.3s ease, background-color 0.3s ease,color 0.3s ease, box-shadow 0.3s ease;
+    width: max-content;
+  }
+  
+  button.button:active,
+  button.button:hover,
+  button.button:focus {
+    background-color: transparent;
+    border: 2px solid transparent;
+    box-shadow: -4px 3px #313d4d;
+    color: #1f1f1f;
+  }
+  
+  @media (prefers-reduced-motion) {
+    button.button {
+      transition: none;
+    }
+  
+    button.button:hover,
+    button.button:active,
+    button.button:focus {
+      box-shadow: 8px -6px darkcyan;
+    }
+  }
+  
