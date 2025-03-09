@@ -22,3 +22,10 @@ body {
   background: var(--background);
   font-family: var(--font-karla);
 }
+
+/* ====== */
+
+.site-container {
+  display: flex;
+  
+}

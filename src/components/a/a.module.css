@@ -1,4 +1,4 @@
-button.button {
+a.a {
     background-color: #323232;
     border: 2px solid #1f1f1f;
     box-shadow: -8px 6px #979999;
@@ -10,12 +10,13 @@ button.button {
     margin: 1rem;
     padding: 0.2rem 0.5rem 0.2rem 6rem;
     transition: border-color 0.3s ease, background-color 0.3s ease,color 0.3s ease, box-shadow 0.3s ease;
-    width: max-content;
+    text-align: right;
+
   }
   
-  button.button:active,
-  button.button:hover,
-  button.button:focus {
+  a.a:active,
+  a.a:hover,
+  a.a:focus {
     background-color: transparent;
     border: 2px solid transparent;
     box-shadow: -4px 3px #323232;
@@ -23,13 +24,13 @@ button.button {
   }
   
   @media (prefers-reduced-motion) {
-    button.button {
+    a.a {
       transition: none;
     }
   
-    button.button:hover,
-    button.button:active,
-    button.button:focus {
+    a.a:hover,
+    a.a:active,
+    a.a:focus {
       box-shadow: 8px -6px darkcyan;
     }
   }
